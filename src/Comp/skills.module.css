@@ -1,0 +1,39 @@
+.progress_circle {
+  width: 150px;
+  height: 150px;
+}
+
+.skill_title {
+  margin-bottom: 1.2rem;
+  text-align: center;
+  color: #414141;
+}
+
+
+@media screen and (max-width: 1024px) {
+  .progress_circle {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .skill_title {
+    text-align: center;
+    color: #414141;
+    width: 50%;
+  }
+
+  .progress_box {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    margin-block: 1.5rem;
+  }
+
+  .progress_circle {
+    max-width: 90px;
+    height: 100px;
+  }
+}

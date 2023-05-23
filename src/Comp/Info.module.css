@@ -1,0 +1,9 @@
+.info_title,
+.info_description {
+  font-size: 15px;
+  color: #414141;
+}
+
+.info_title {
+  font-weight: 600;
+}
