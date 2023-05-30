@@ -1,5 +1,6 @@
 import "./App.css";
 import { Route, Routes } from "react-router-dom";
+import Bubble from "./Comp/bubble";
 
 import Home from "./pages/home/Home";
 import About from "./pages/about/About";
@@ -11,6 +12,7 @@ function App() {
   return (
     <>
       <Navigation />
+      <Bubble />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />

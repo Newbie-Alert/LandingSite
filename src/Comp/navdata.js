@@ -20,12 +20,6 @@ const links = [
     icon: <FaFolderOpen className={styles.nav_icon} />,
     path: '/portfolio'
   },
-  {
-    id: 0,
-    name: "Contact",
-    icon: <FaEnvelopeOpen className={styles.nav_icon} />,
-    path: '/contact'
-  },
 ]
 
 export default links;

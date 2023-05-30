@@ -1,0 +1,56 @@
+.bubble_container {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  right: 1.2rem;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 3;
+}
+
+
+.bubble_icon {
+  margin-block: 3rem;
+  background-color: #eee;
+  padding: 6px;
+  width: 36px;
+  height: 36px;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+.bubble_icon:hover {
+  background-color: rgb(5, 103, 196);
+  color: white;
+}
+
+.bubble_link {
+  position: relative;
+}
+
+.bubble_text {
+  position: absolute;
+  left: -270%;
+  top: 50%;
+  transform: translateY(-50%);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.home {
+  left: -210%;
+}
+
+.about {
+  left: -210%;
+}
+
+.bubble_link:hover>.bubble_text {
+  opacity: 1;
+}
+
+@media screen and (max-width: 768px) {
+  .bubble_container {
+    display: none;
+  }
+}
