@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/landingPage/static/css/main.8d1fa1e3.css",
+    "main.js": "/landingPage/static/js/main.e07e4faa.js",
+    "static/js/787.1ed0c42c.chunk.js": "/landingPage/static/js/787.1ed0c42c.chunk.js",
+    "static/media/pf_minimalShop.png": "/landingPage/static/media/pf_minimalShop.020a304959797c93b57e.png",
+    "static/media/pf_SolarSystem.png": "/landingPage/static/media/pf_SolarSystem.e2a87b6f2038fcfd6bb3.png",
+    "static/media/pf_chatbot.png": "/landingPage/static/media/pf_chatbot.f7a6cdd5bac67de64bc3.png",
+    "static/media/pf_todo.png": "/landingPage/static/media/pf_todo.d40bcab3e902ce76246d.png",
+    "static/media/pf_blog.png": "/landingPage/static/media/pf_blog.c8f6ec5e967b52a6eb57.png",
+    "index.html": "/landingPage/index.html",
+    "main.8d1fa1e3.css.map": "/landingPage/static/css/main.8d1fa1e3.css.map",
+    "main.e07e4faa.js.map": "/landingPage/static/js/main.e07e4faa.js.map",
+    "787.1ed0c42c.chunk.js.map": "/landingPage/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8d1fa1e3.css",
+    "static/js/main.e07e4faa.js"
+  ]
+}
